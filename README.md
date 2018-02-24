@@ -2,7 +2,7 @@
 Gulpd
 =================
 
-Gulpd is an agent for Megam vertis
+Gulpd is an agent for Vertice / Virt Engine
 
 ### Requirements
 
