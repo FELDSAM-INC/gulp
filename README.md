@@ -19,11 +19,11 @@ Gulpd is an agent for Megam vertis
 
 
 ```
-mkdir -p code/megam/go/src/github.com/megamsys
+mkdir -p code/detio/go/src/github.com/virtengine
 
-cd code/megam/go/src/github.com/megamsys
+cd code/detio/go/src/github.com/virtengine
 
-git clone https://github.com/megamsys/gulp.git
+git clone https://github.com/virtengine/gulp.git
 
 cd gulp
 
@@ -34,13 +34,13 @@ make
 
 ### Documentation
 
-Refer [documentation] (http://docs.megam.io)
+Refer [documentation] (http://docs.virtengine.com)
 
 
 
 We are glad to help if you have questions, or request for new features..
 
-[twitter @megamsys](http://twitter.com/megamsys) [email support@megam.io](<support@megam.io>)
+[email hello@virtengine.com](<hello@virtengine.com>)
 
 
 
@@ -53,7 +53,8 @@ We are glad to help if you have questions, or request for new features..
 | **Author:**          | Rajthilak (<rajthilak@megam.io>)
 | 	                   | KishorekumarNeelamegam (<nkishore@megam.io>)
 |                      | Yeshwanth kumar (<getyesh@megam.io)   
-| **Copyright:**       | Copyright (c) 2013-2016 Megam Systems.
+|                      | Jonathan Philipos (<jonathan@det.io>)
+| **Copyright:**       | Copyright (c) 2016 - 2018 VirtEngine.
 | **License:**         | Apache License, Version 2.0
 
 Licensed under the Apache License, Version 2.0 (the "License");
