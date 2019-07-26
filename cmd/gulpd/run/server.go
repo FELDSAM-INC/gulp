@@ -149,7 +149,7 @@ func startProfile(cpuprofile, memprofile string) {
 		if err != nil {
 			log.Errorf("cpuprofile: %s", err)
 		}
-		log.Info("writing CPU profile to: %s\n", cpuprofile)
+		log.Infof("writing CPU profile to: %s\n", cpuprofile)
 		prof.cpu = f
 		pprof.StartCPUProfile(prof.cpu)
 	}
@@ -159,7 +159,7 @@ func startProfile(cpuprofile, memprofile string) {
 		if err != nil {
 			log.Errorf("memprofile: %s", err)
 		}
-		log.Info("writing mem profile to: %s\n", memprofile)
+		log.Infof("writing mem profile to: %s\n", memprofile)
 		prof.mem = f
 		runtime.MemProfileRate = 4096
 	}
